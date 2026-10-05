@@ -1,6 +1,6 @@
 # Portafolio de Ciberseguridad
 
-Portafolio de proyectos del **Certificado Profesional de Ciberseguridad de Google**
+Portafolio de proyectos del **Certificado Profesional de Ciberseguridad de Google**.
 Cada proyecto documenta una competencia práctica aplicada a escenarios de seguridad.
 
 Felipe Urtubia — Estudiante Técnico en Ciberseguridad |
