@@ -37,4 +37,52 @@ Botium Toys es una pequeña empresa de juguetería (tienda física y comercio el
 | Sistema de detección de intrusiones (IDS) | No |
 | Copias de seguridad (Backups) | No |
 | Software antivirus | Sí |
-| Monitoreo/mantenimiento manual de sistemas | No |
+| Monitoreo/mantenimiento manual de sistemas heredados (sin calendario formal) | No |
+| Cifrado (Encryption) | No |
+| Sistema de gestión de contraseñas | No |
+| Cerraduras (oficinas, tienda, bodega) | Sí |
+| Vigilancia CCTV | Sí |
+| Detección/prevención de incendios | Sí |
+
+---
+
+## Evaluación de cumplimiento
+
+### PCI DSS (Estándar de Seguridad de Datos de la Industria de Tarjetas de Pago)
+
+| Buena práctica | ¿Cumple? |
+|----------------|:---:|
+| Solo usuarios autorizados acceden a la información de tarjetas de crédito | No |
+| La información de tarjetas se almacena, procesa y transmite en un entorno seguro | No |
+| Cifrado en los puntos de contacto y datos de transacciones | No |
+| Políticas de gestión segura de contraseñas | No |
+
+### GDPR (Reglamento General de Protección de Datos)
+
+| Buena práctica | ¿Cumple? |
+|----------------|:---:|
+| Los datos de clientes de la U.E. se mantienen privados/seguros | No |
+| Plan para notificar a clientes de la U.E. dentro de 72 h ante una brecha | Sí |
+| Datos correctamente clasificados e inventariados | No |
+| Políticas de privacidad aplicadas para documentar y mantener los datos | Sí |
+
+### SOC (System and Organization Controls, tipo 1 y tipo 2)
+
+| Buena práctica | ¿Cumple? |
+|----------------|:---:|
+| Políticas de acceso de usuarios establecidas | No |
+| Datos sensibles (PII/SPII) confidenciales/privados | No |
+| Integridad de datos (consistentes, completos, exactos y validados) | Sí |
+| Datos disponibles para los individuos autorizados | Sí |
+
+---
+
+## Recomendaciones
+
+Priorizar la implementación del **principio de mínimo privilegio** y la **separación de funciones**, junto con el **cifrado** de los datos sensibles, un **sistema centralizado de gestión de contraseñas**, **copias de seguridad** y un **plan de recuperación ante desastres**. También se recomienda implementar un **IDS**, fortalecer la política de contraseñas y establecer un calendario formal para el mantenimiento de sistemas heredados.
+
+Estas medidas reducirían el riesgo para los activos y mejorarían la postura general de seguridad y cumplimiento de Botium Toys.
+
+---
+
+*Proyecto 2 del Certificado Profesional de Ciberseguridad de Google — trabajo propio basado en un escenario ficticio del curso.*
