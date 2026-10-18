@@ -14,7 +14,7 @@ Felipe Urtubia — Estudiante Técnico en Ciberseguridad |
 |---|----------|-------------|--------|
 | 1 | Declaración profesional | Presentación profesional | Completado |
 | 2 | Auditoría de seguridad | Controles y cumplimiento | Completado |
-| 3 | Análisis de estructura y seguridad de red | Redes | Pendiente |
+| 3 | Análisis de estructura y seguridad de red | Redes | Completado |
 | 4 | Gestión de permisos de archivos con Linux | Linux / control de acceso | Pendiente |
 | 5 | Filtros en consultas SQL | SQL / análisis de datos | Pendiente |
 | 6 | Identificación de vulnerabilidades (pequeña empresa) | Gestión de vulnerabilidades | Pendiente |
