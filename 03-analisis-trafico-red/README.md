@@ -1,7 +1,5 @@
 # Informe de incidente de ciberseguridad: Análisis de tráfico de red
 
-> 📄 **[Ver informe formal en formato PDF](./informe_incidente_v2.pdf)**
-
 ---
 
 ## Evidencia: Registro de Tráfico (tcpdump)
