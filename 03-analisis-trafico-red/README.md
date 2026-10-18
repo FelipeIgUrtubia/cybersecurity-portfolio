@@ -3,7 +3,13 @@
 > 📄 **[Ver informe formal en formato PDF](./Informe_de_Analisis_de_Trafico_de_Red.pdf)**
 
 ---
+## 📝 Contexto del Escenario
 
+Como analista de ciberseguridad en una empresa de servicios informáticos, se reportó un incidente donde múltiples clientes no podían acceder al sitio web de la empresa cliente (`www.yummyrecipesforme.com`). Tras un tiempo prolongado de carga, los navegadores arrojaban el error *"puerto de destino inalcanzable"*. 
+
+El objetivo de este proyecto fue investigar la interrupción del servicio utilizando la herramienta de análisis de protocolos de red **tcpdump** para capturar el tráfico en tránsito, identificar el protocolo de red afectado y determinar la causa raíz del incidente.
+
+---
 ---
 
 ## Evidencia: Registro de Tráfico (tcpdump)
