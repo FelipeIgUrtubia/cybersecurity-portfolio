@@ -1,9 +1,9 @@
 ## Informe de incidente de ciberseguridad: Análisis de tráfico de red
 
-> 📄 **[Ver informe formal en formato PDF](./Informe_de_Analisis_de_Trafico_de_Red.pdf)**
+>  **[Ver informe formal en formato PDF](./Informe_de_Analisis_de_Trafico_de_Red.pdf)**
 
 ---
-## 📝 Contexto del Escenario
+##  Contexto del Escenario
 
 Como analista de ciberseguridad en una empresa de servicios informáticos, se reportó un incidente donde múltiples clientes no podían acceder al sitio web de la empresa cliente (`www.yummyrecipesforme.com`). Tras un tiempo prolongado de carga, los navegadores arrojaban el error *"puerto de destino inalcanzable"*. 
 
