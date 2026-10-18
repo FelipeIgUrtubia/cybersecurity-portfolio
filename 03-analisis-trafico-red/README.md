@@ -1,4 +1,8 @@
-# Informe de incidente de ciberseguridad: Análisis de tráfico de red
+## Informe de incidente de ciberseguridad: Análisis de tráfico de red
+
+> 📄 **[Ver informe formal en formato PDF](./Informe_de_Analisis_de_Trafico_de_Red.pdf)**
+
+---
 
 ---
 
