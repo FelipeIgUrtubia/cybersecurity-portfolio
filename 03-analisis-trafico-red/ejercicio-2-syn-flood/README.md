@@ -1,6 +1,6 @@
 ## Informe de incidente de ciberseguridad: Ataque de inundación SYN (DoS)
 
-**[Ver informe formal en formato PDF](./Informe_SYN_Flood.pdf)**
+**[Ver informe formal en formato PDF](./Informe-incidente-ciberseguridad.pdf)**
 
 ---
 
