@@ -18,17 +18,12 @@ El objetivo de este proyecto fue identificar el tipo de ataque, explicar cómo a
 
 *(A continuación se muestra la captura del tráfico de red analizado)*
 
-![Captura del registro Wireshark](./captura-wireshark.png)
+El registro TCP con código de colores muestra el patrón del ataque:
+verde = conexiones legítimas · rojo = actividad del ataque (203.0.113.0) · amarillo = conexiones legítimas fallando por el ataque.
 
-| N.º | Origen | Destino | Protocolo | Info |
-|-----|--------|---------|-----------|------|
-| 47 | 198.51.100.23 | 192.0.2.1 | TCP | 42584→443 [SYN] — conexión legítima |
-| 48 | 192.0.2.1 | 198.51.100.23 | TCP | 443→42584 [SYN, ACK] |
-| 49 | 198.51.100.23 | 192.0.2.1 | TCP | 42584→443 [ACK] — handshake completo |
-| 52 | **203.0.113.0** | 192.0.2.1 | TCP | 54770→443 [SYN] — inicio del ataque |
-| 57–76 | **203.0.113.0** | 192.0.2.1 | TCP | [SYN] repetidos sin completar el handshake |
-| 73 | 192.0.2.1 | 198.51.100.16 | TCP | 443→32641 [RST, ACK] — conexión legítima rechazada |
+![Registro TCP con código de colores - parte 1](log-pagina-01.png)
 
+![Registro TCP con código de colores - parte 2](log-pagina-02.png)
 - **192.0.2.1** → servidor web de la empresa
 - **198.51.100.0/24** → equipos de los empleados (tráfico legítimo)
 - **203.0.113.0** → IP atacante (inundación SYN)
