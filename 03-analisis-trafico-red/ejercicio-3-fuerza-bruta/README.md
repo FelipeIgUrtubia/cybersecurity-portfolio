@@ -63,8 +63,8 @@ El protocolo principal implicado en el redireccionamiento malicioso es **HTTP**,
 
 **Medida recomendada: autenticación de dos factores (2FA).**
 
-Un ataque de fuerza bruta depende de adivinar la contraseña probando muchas combinaciones. Con 2FA, la contraseña por sí sola no basta para iniciar sesión: se exige un segundo factor (código temporal de una app de autenticación o token físico) que el atacante no posee. Así, aunque la contraseña sea débil, por defecto o quede expuesta, el acceso a la cuenta administrativa queda bloqueado. Como complemento conviene limitar los intentos de inicio de sesión y exigir contraseñas seguras.
+Un ataque de fuerza bruta depende de adivinar la contraseña probando muchas combinaciones. Con 2FA, la contraseña por sí sola no basta para iniciar sesión: se exige un segundo factor (código temporal de una app de autenticación o token físico) que el atacante no posee. Así, aunque la contraseña sea débil, por defecto o quede expuesta, el acceso a la cuenta administrativa queda bloqueado.
 
----
+**Medida complementaria clave para este caso: impedir el uso de contraseñas anteriores o por defecto.** Como la causa raíz fue que la cuenta administrativa conservaba la contraseña por defecto, bloquear la reutilización de contraseñas antiguas o por defecto al restablecerlas ataca directamente esa vulnerabilidad. Conviene además exigir contraseñas largas (15 caracteres o más) y limitar los intentos de inicio de sesión.
 
 *Ejercicio 3 — Curso 3 (Seguridad de redes) del Certificado Profesional de Ciberseguridad de Google. Trabajo propio basado en un escenario ficticio del curso.*
